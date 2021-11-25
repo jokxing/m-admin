@@ -1,0 +1,16 @@
+{
+    "message": {
+        "Data|15": [
+            {
+                "account": "-",
+                "created_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+                "fundsn": "@id",
+                "money|1-10000": 0,
+                "status|1": ["成功","拒绝","处理中"]
+            }
+        ],
+        "PageSize": 15,
+        "Total": 19
+    },
+    "status_code": 201
+}

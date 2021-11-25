@@ -1,0 +1,33 @@
+{
+    "message": {
+        "Count_Subtotal": {
+            "cost": 3.04,
+            "suser1": 1,
+            "suser2": 0
+        },
+        "Count_Total": {
+            "cost": 3.04,
+            "suser1": 1,
+            "suser2": 0
+        },
+        "Data": [
+            {
+                "cost": 3.04,
+                "sub_users": [
+                    {
+                        "cost": 3.04,
+                        "user_level": "一级",
+                        "user_name": "@first()"
+                    }
+                ],
+                "suser1": 1,
+                "suser2": 0,
+                "user_id": 1312681,
+                "user_name": "@first()"
+            }
+        ],
+        "Total": 1,
+        "per_page": 20
+    },
+    "status_code": 201
+}

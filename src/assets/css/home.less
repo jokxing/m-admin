@@ -1,0 +1,307 @@
+// 首页
+#home{
+    .top{
+        width: 100%;
+        height: 230px;
+        background-image: url(../img/home/home_bg.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .top_inner{
+            width: @main_w;
+            margin: 0 auto;
+
+            .head{
+                padding-top: 5%;
+                .head_i{
+                    width: 50px;
+                    height: 50px;
+                    line-height: 46px;
+                    float: left;
+                    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16); 
+                    border-radius: 50%;
+                    margin-right: 15px;
+                    background-color: #fff;
+                    text-align: center;
+                    color: @primary_color;
+                }
+                p{
+                    width: calc(100% - 65px);
+                    float: left;
+                    color: #fff;
+                    font-size: 12px;
+                    margin-top: 6px;
+
+                    .float_l{
+                        em{
+                            color: @yellow;
+                        }
+                    }
+
+                    .float_r{
+                        em{
+                            color: @green;
+                        }
+                    }
+                }
+            }
+
+            .circle{
+                margin-top: 10px;
+                text-align: center;
+
+                .circle_inner{
+                    width: 98px;
+                    height: 98px;
+                    background-image: url(../img/home/circle_biao.png);
+                    background-size: 80%;
+                    background-position: 10px 10px;
+                    background-repeat: no-repeat;
+                    margin: 0 auto;
+
+                    .van-circle{
+                        width: 98px;
+                        height: 98px;
+                        background-image: url(../img/home/circle_bg.png);
+                        background-size: 70%;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                h6{
+                    font-size: 14px;
+                    color: #fff;
+                    font-weight: normal;
+                    padding-top: 6px;
+                }
+            }
+
+            .info{
+                width: 90%;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.05); 
+                position: absolute;
+                bottom: -45px;
+                padding: 10px 0;
+
+                .van-col{
+                    text-align: center;
+
+                    p:first-child{
+                        font-size: 16px;
+                        color: @primary_color;
+                        font-weight: 700;
+                    }
+
+                    p:last-child{
+                        font-size: 12px;
+                        color: #9B9B9B;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .notice{
+        width: calc(90% - 26px);
+        height: 30px;
+        border-radius: 15px;
+        background-color: #fff;
+        margin: 55px auto 0;
+        padding-left: 28px;
+        position: relative;
+
+        i{
+            font-size: 14px;
+            position: absolute;
+            top: 48%;
+            left: 10px;
+            transform: translateY(-50%);
+            color: @primary_color;
+        }
+
+        marquee{
+            font-size: 12px;
+            color: #656565;
+            line-height: 30px;
+            display: block;
+        }
+    }
+
+    .main{
+        width: 90%;
+        height: calc(100% - 376px);
+        position: fixed;
+        bottom: 51px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 0;
+
+        .tab{
+            width: 112px;
+            float: left;
+            height: 100%;
+            overflow-y: auto;
+
+            ul{
+                li{
+                    width: 100%;
+                    height: 72px;
+                    background-image: url(../img/home/home_tab_bg.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    font-size: 14px;
+                    color: #6C88B8;
+                    text-align: center;
+
+                    img{
+                        margin-top: 10px;
+                    }
+                }
+
+                li.active{
+                    background-image: url(../img/home/home_tab_bg_on.png);
+                    color: #fff;
+                }
+            }
+        }
+        .tab::-webkit-scrollbar {
+            display: none;
+        }
+
+        .right{
+            width: 218px;
+            float: right;
+            height: 100%;
+            overflow-y: auto;
+
+            ul{
+                li{
+                    width: calc(100% - 25px);
+                    height: 85px;
+                    margin-bottom: 7px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    line-height: 85px;
+                    color: #6C88B8;
+                    padding-left: 25px;
+                }
+
+                li:last-child{
+                    margin-bottom: 0;
+                }
+            }
+
+            ul.list_2 li{
+                height: 178px;
+                line-height: 178px;
+            }
+
+            ul.list_3 li{
+                height: 116px;
+                line-height: 116px;
+            }
+        }
+        .right::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+// VIP专享
+#vip{
+    .list{
+        width: 337px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.06); 
+        position: relative;
+        overflow: hidden;
+        span{
+            width: 40px;
+            height: 24px;
+            text-align: center;
+            line-height: 24px;
+            color: #fff;
+            border-radius: 6px 0 6px 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background-color: #52B4CF;
+            font-size: 12px;
+        }
+        h6{
+            font-size: 14px;
+            padding-left: 10px;
+            margin-bottom: 3px;
+        }
+        p{
+            font-size: 12px;
+            color: #CECECE;
+            padding-left: 10px;
+            margin-bottom: 7px;
+        }
+    }
+}
+
+// 代理礼金
+#acting_lottery{
+    .inner{
+        background-color: #fff;
+        padding: 10px 20px;
+        margin-bottom: 60px;
+        .top{
+            p{
+                margin-bottom: 6px;
+            }
+            ul{
+                margin-top: 16px;
+                li{
+                    margin-bottom: 6px;
+                    span{
+                        color: @primary_color;
+                    }
+                }
+            }
+        }
+
+        table{
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            border-collapse: collapse;
+            border-top: 1px #eee solid;
+            th,td{
+                height: 40px;
+            }
+
+            tbody{
+                tr{
+                    &:nth-child(2n+1){
+                        background-color: #F8F8F8;
+                    }
+                }
+            }
+        }
+
+        .bot{
+            h5{
+                color: #414755;
+                font-size: 16px;
+                margin-top: 20px;
+                margin-bottom: 6px;
+                font-weight: 600;
+            }
+            p{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

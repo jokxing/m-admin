@@ -1,0 +1,236 @@
+// 会员转线申请、会员调级申请
+#member_transfer_line{
+    .main{
+        .van-row{
+            margin-bottom: 10px;
+        }
+
+        .top{
+            width: 100%;
+            background-color: #fff;
+            text-align: center;
+            padding: 17px 0;
+
+            h5{
+                font-size: 20px;
+                color: @primary_color;
+                font-weight: bold;
+            }
+            p{
+                color: #9B9B9B;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .from{
+            background-color: #fff;
+            .van-cell{
+                padding-left: 20px;
+                height: 50px;
+                line-height: 50px;
+
+                &::after{
+                    width: 100%;
+                }
+                
+                /deep/ i{
+                    margin-right: 20px;
+                }
+            }
+            // 会员调级申请
+            .member_manage{
+                padding-left: 20px;
+                height: 50px;
+                position: relative;
+                p{
+                    line-height: 50px;
+                    display: flex;
+                    align-items: center;
+                    /deep/ i{
+                        font-size: 17px;
+                        color: #C1C1C1;
+                        margin-right: 5px;
+                    }
+                    a{
+                        color: @primary_color;
+                    }
+                }
+                /deep/ .van-cell{
+                    padding-left: 0;
+                    &::after{
+                        left: 0;
+                    }
+                }
+                span{
+                    height: 50px;
+                    line-height: 50px;
+                    padding: 0 20px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    color: @primary_color;
+                    &::before{
+                        .l_before()
+                    }
+                    a{
+                        display: flex;
+                        align-items: center;
+
+                        img{
+                            width: 14px;
+                            margin-right: 3px;
+                        }
+                    }
+                }
+            }
+        }
+
+        /deep/ textarea{
+            padding: 10px 20px 0;
+        }
+        /deep/ .van-field__word-limit{
+            padding: 0 20px 10px;
+        }
+
+        .uploader{
+            background-color: #fff;
+            padding: 10px 20px;
+
+            p{
+                margin-bottom: 14px;
+                span{
+                    color: #9B9B9B;
+                    padding-left: 6px;
+                }
+            }
+
+            h6{
+                color: #9B9B9B;
+                font-size: 14px;
+            }
+
+            /deep/ .van-uploader__upload{
+                width: 75px;
+                height: 75px;
+                background-color: initial;
+                background-image: url(../img/uploader.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                i{
+                    display: none;
+                }
+            }
+            /deep/ .van-uploader__preview-image{
+                width: 75px;
+                height: 75px;
+            }
+        }
+        
+        .inner{
+            .van-button{
+                width: 100%;
+            }
+
+            ul {
+                margin-top: 15px;
+                li{
+                    padding-left: 20px;
+                    position: relative;
+                    font-size: 12px;
+                    color: #585858;
+                    margin-bottom: 10px;
+                    line-height: 20px;
+
+                    span{
+                        .serial_number();
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// 会员层级调整对比图
+#member_level_adjustment_compare{
+    .inner{
+        background-color: #fff;
+        padding-top: 25px;
+
+        .compare_table{
+            img{
+                width: 100%;
+            }
+        }
+
+        .requirement{
+            width: 337px;
+            margin: 0 auto;
+        }
+    }
+}
+
+// 会员注销查询
+#member_logout_search{
+    .inner{
+        .van-button--primary{
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .box{
+            margin-top: 30px;
+            width: 100%;
+            text-align: center;
+            img{
+                width: 182px;
+                margin-bottom: 26px;
+            }
+            i{
+                font-size: 70px;
+            }
+            p{
+                color: #9B9B9B;
+            }
+        }
+        .requirement{
+            margin-top: 60px;
+        }
+    }
+}
+
+
+.requirement{
+    h6{
+        color: #585858;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    ul li{
+        padding-left: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        color: #585858;
+        line-height: 22px;
+        font-size: 12px;
+        text-align: justify;
+        
+        span{
+            .serial_number()
+        }
+    }
+}
+
+// 按钮
+.manageCenter_btn{
+    width: 90%;
+    margin: 20px auto;
+    /deep/ .van-button{
+        height: 40px;
+    }
+}

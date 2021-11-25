@@ -1,0 +1,121 @@
+// 推广网址
+#spread_url{
+    .spread_url_box{
+        background-color: #fff;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        img{
+            width: 100%;
+        }
+        p{
+            padding-left: 8px;
+            color: #656565;
+        }
+        /deep/ .van-button{
+            width: 90px;
+            margin-right: 10px;
+        }
+    }
+    .qrcode_list{
+        padding: 0 20px;
+        li{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-bottom: 1px #f1f1f1 solid;
+            &:last-child{
+                border-bottom: 0;
+            }
+        }
+    }
+}
+
+// 代理链接
+#spread_proxy_url{
+    /deep/ .van-cell{
+        padding: 10px 20px;
+        span{
+            font-weight: 600;
+        }
+        .van-cell__label{
+            font-size: 14px;
+            width: 200px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+        }
+        .van-button {
+            width: 60px;
+            height: 28px;
+            border-radius: 14px;
+            margin-left: 6px;
+            span{
+                font-weight: initial;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+// 推广素材
+#spread_material{
+    .list{
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        
+        /deep/ .van-row{
+            margin-bottom: 30px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            .van-image{
+                display: block;
+            }
+            .van-button{
+                height: 40px;
+            }
+        }
+    }
+}
+
+// 二维码-弹窗
+.qrcode_popup{
+    width: 80%;
+    border-radius: 6px;
+    h5{
+        font-size: 16px;
+        line-height: 40px;
+        text-align: center;
+        background-color: @primary_color;
+        color: #fff;
+        position: relative;
+        i{
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            transform: translateY(-50%);
+        }
+    }
+    .content{
+        padding: 30px 20px 0;
+        text-align: center;
+        /deep/ img{
+            margin: 0 auto;
+        }
+        /deep/ .van-button{
+            height: 40px;
+            margin-bottom: 20px;
+            i{
+                transform:rotate(180deg);
+                -ms-transform:rotate(180deg); 	/* IE 9 */
+                -moz-transform:rotate(180deg); 	/* Firefox */
+                -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+                -o-transform:rotate(180deg); 
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+        }
+    }
+}

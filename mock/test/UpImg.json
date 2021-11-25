@@ -1,0 +1,7 @@
+{
+    "message": {
+        "Token": "@guid",
+        "upUrl": "@url"
+    },
+    "status_code": 201
+}

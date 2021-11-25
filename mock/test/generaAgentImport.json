@@ -1,0 +1,38 @@
+{
+    "message":{
+        "appdown": [
+            {
+                "img": "appdown_0.png",
+                "link":{
+                    "qq": "@url",
+                    "url": "@url",
+                    "wx": "@url"
+                }
+            }
+        ],
+        "h5": [
+            {
+                "img": "h5_0.png",
+                "link":{
+                    "qq": "@url",
+                    "url": "@url",
+                    "wx": "@url"
+                }
+            }
+        ],
+        "me": {
+            "link": ["@url"]
+        },
+        "pc": [
+            {
+                "img": "pc_0.png",
+                "link":{
+                    "qq": "@url",
+                    "url": "@url",
+                    "wx": "@url"
+                }
+            }
+        ]
+    },
+    "status_code": 201
+}

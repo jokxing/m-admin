@@ -1,0 +1,21 @@
+{
+    "message" : {
+        "Data|20": [
+            {
+                "account": "@cword * @cword(0,1)",
+                "addIp": "@ip",
+                "addTime": "@date('yyyy-MM-dd') @time('HH:mm:ss')",
+                "ins_win|-1000-1000": 0,
+                "last_login_time": "@date('yyyy-MM-dd') @time('HH:mm:ss')",
+                "level_name": "@natural(1, 10)级",
+                "name": "@word(3, 5)",
+                "status_name|1": ["静止户","正常户","停权户","密码锁定","内部试玩","沉默户"],
+                "user_dpt_money|0-1000": 0,
+                "wtd_money|0-1000": 0
+            }
+        ],
+        "Pagesize": 20,
+        "Total|1-5000": 0
+    },
+    "status_code": 201
+}

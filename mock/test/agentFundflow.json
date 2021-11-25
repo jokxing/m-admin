@@ -1,0 +1,16 @@
+{
+    "message":{
+        "data|20":[
+            {
+                "created_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+                "leave_money|0-200": 0,
+                "money|0-100": 0,
+                "name": "@string(5)",
+                "realname": "@cname()",
+                "type|1": ["支出","收入"]
+            }
+        ],
+        "per_page": 20,
+        "total|20-50": 0
+    }
+}

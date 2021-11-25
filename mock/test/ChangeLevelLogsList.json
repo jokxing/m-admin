@@ -1,0 +1,18 @@
+{
+    "message" : {
+        "Data|20": [
+            {
+                "before_level_id": "@integer(1, 10)级",
+                "created_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+                "new_level_id": "-",
+                "post_member_name": "@last()",
+                "register_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+                "status|0-2": 0,
+                "verify_remark": "测试"
+            }
+        ],
+        "Pagesize": 20,
+        "Total|1-5000": 0
+    },
+    "status_code": 201
+}

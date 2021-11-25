@@ -1,0 +1,12 @@
+{
+    "message": [
+        {
+            "actId": "vipDetail",
+            "img": "@image('200x80', '#4A7BF7', 'Hello')",
+            "label": "推荐",
+            "name": "@ctitle(3, 4)",
+            "time": "长期活动"
+        }
+    ],
+    "status_code": 201
+}

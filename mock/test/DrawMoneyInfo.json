@@ -1,0 +1,7 @@
+{
+    "message":{
+        "balance|0-10000": 0,
+        "block|0-10000": 0
+    },
+    "status_code": 201
+}

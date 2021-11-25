@@ -1,0 +1,9 @@
+{
+    "message": {
+        "link":{
+            "qq": "@url",
+            "url": "@url",
+            "wx": "@url"
+        }
+    }
+}

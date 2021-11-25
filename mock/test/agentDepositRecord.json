@@ -1,0 +1,17 @@
+{
+    "message": {
+        "Data|20": [
+            {
+                "amount|0-200": 0,
+                "date": "@datetime('yyyy-MM-dd HH:mm:ss')",
+                "fundsn": "@integer(10000)",
+                "remark": "",
+                "status": "成功",
+                "user": "@string()"
+            }
+        ],
+        "PageSize": 20,
+        "Total|20-100": 0
+    },
+    "status_code": 201
+}

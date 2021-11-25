@@ -1,0 +1,10 @@
+{
+    "message|3": [
+        {
+            "id|1-10": 1,
+            "content": "@cparagraph(2)",
+            "title": "@ctitle"
+        }
+    ],
+    "status_code": 201
+}

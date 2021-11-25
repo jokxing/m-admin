@@ -1,0 +1,18 @@
+{
+    "message": {
+        "list|15": [
+            {
+                "actname": "类型@integer(1, 4)",
+                "created_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+                "id": "@natural",
+                "money|1-500": 503,
+                "name": "@last()",
+                "realname": "@last()"
+
+            }
+        ],
+        "Pagesize": 15,
+        "total|15-50": 0
+    },
+    "status_code": 201
+}

@@ -1,0 +1,8 @@
+{
+    "message": {
+        "MonthCount|1-10": 0,
+        "Rate": "@natural(0, 100)%",
+        "TotalCount|1-100": 0
+    },
+    "status_code": 201
+}

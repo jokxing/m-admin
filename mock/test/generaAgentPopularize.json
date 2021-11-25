@@ -1,0 +1,30 @@
+{
+    "message":{
+        "data|10": [
+            [
+                {
+                    "datetime": "@datetime('yyyy-MM-dd HH:mm:ss')",
+                    "genre": 1,
+                    "platform": "标题",
+                    "size": "1200x600",
+                    "title": "标题",
+                    "url": "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fd.ifengimg.com%2Fw600%2Fe0.ifengimg.com%2F09%2F2018%2F1127%2FB8B275890FBA729FB2C54BDD19816FC4F35EC48E_size878_w629_h357.png&refer=http%3A%2F%2Fd.ifengimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1627135046&t=349b67df5401340ea0891a3983dfa16b"
+                }
+            ]
+        ],
+        "genre":[
+            {
+                "id": 1,
+                "name": "推广图1"
+            },
+            {
+                "id": 2,
+                "name": "推广图2"
+            }
+        ],
+        "list": ["标题1","标题2","标题3","标题4","标题5"],
+        "size": ["1200x600", "1024x412"],
+        "url": "@url"
+    },
+    "status_code": 201
+}

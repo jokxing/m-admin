@@ -1,0 +1,10 @@
+{
+    "message|3": [
+        {
+            "created_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+            "id|1-50": 0,
+            "title": "@ctitle(5,20)"
+        }
+    ],
+    "status_code": 201
+}

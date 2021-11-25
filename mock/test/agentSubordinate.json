@@ -1,0 +1,22 @@
+{
+    "message|4":[
+        {
+            "cmoney|0-100": 0,
+            "code": "@last()",
+            "created_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+            "created_ip": "@ip()",
+            "id|10000-10050": 10031,
+            "login_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+            "login_ip": "@ip()",
+            "money|0-100": 0,
+            "realname": "@cname()",
+            "remark": "@ctitle(3, 5)",
+            "status_text|1": ["启动", "锁定"],
+            "user_active_num|0-100": 0,
+            "user_num|0-100": 0,
+            "user_register_num|0-100": 0,
+            "user_valid_num|0-100": 0
+        }
+    ],
+    "status_code": 201
+}

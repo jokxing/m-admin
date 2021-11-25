@@ -1,0 +1,8 @@
+{
+    "message": {
+        "content": "@cparagraph()",
+        "created_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+        "title": "@ctitle(5,20)"
+    },
+    "status_code": 201
+}

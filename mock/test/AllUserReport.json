@@ -1,0 +1,28 @@
+{
+    "message": {
+        "Data|20": [
+            {
+                "agent_bonus": "@natural(0, 100)",
+                "beat_money": "@natural(0, 100)",
+                "beat_num": "@natural(0, 100)",
+                "bonus_money": "@natural(0, 100)",
+                "bonus_system": "@natural(0, 100)",
+                "dpt_bonus_money": "@natural(0, 100)",
+                "dpt_money": "@natural(0, 100)",
+                "game_fee": "@natural(0, 100)",
+                "ins_win_money|-100-100": 0,
+                "real_win_lost|-100-100": 0,
+                "transfer": "@natural(0, 100)",
+                "user_agent": "@natural(0, 100)",
+                "user_name": "@first()",
+                "uservip_system": "@natural(0, 100)",
+                "valid_betamt": "@natural(0, 100)",
+                "water_money": "@natural(0, 100)",
+                "wtd_money": "@natural(0, 100)"
+            }
+        ],
+        "PageSize": 20,
+        "Total|20-100": 0
+    },
+    "status_code": 201
+}

@@ -1,0 +1,127 @@
+// 财务报表
+#commission_report{
+    .inner{
+        width: calc(100% - 40px);
+        padding: 15px 20px;
+        background-color: #fff;
+        h5{
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .van-row{
+            margin-bottom: 16px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+
+        ul li{
+            width: 165px;
+            height: 110px;
+            background-image: url(../img/reportCenter/commission_report_bg.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            float: left;
+            text-align: center;
+            margin-bottom: 7px;
+
+            &:nth-child(2n+2){
+                float: right;
+            }
+
+            h6{
+                font-size: 14px;
+                color: #fff;
+                margin-top: 7px;
+                margin-left: 13px;
+                text-align: left;
+                img{
+                    width: 14px;
+                    margin-right: 5px;
+                    vertical-align: text-top;
+                }
+            }
+            p{
+                color: #fff;
+                font-size: 18px;
+                margin-top: 16px;
+                margin-bottom: 7px;
+            }
+            /deep/ .van-button{
+                width: 70px;
+                border-radius: 12px;
+                box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.15); 
+                color: #F0A94B;
+                background-color: #fff;
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .rule{
+        padding: 0 20px;
+        margin-top: 30px;
+        ul li{
+            position: relative;
+            margin-bottom: 13px;
+            padding-left: 20px;
+            color: #585858;
+            line-height: 20px;
+            span{
+                .serial_number()
+            }
+        }
+    }
+}
+
+// 当月财务和实际盈亏
+#commissionReport_detail{
+    .inner{
+        background-color: #fff;
+        padding-bottom: 0;
+        margin-bottom: 60px;
+
+        ul{
+            padding-top: 10px;
+            li{
+                width: 100%;
+                display: inline-block;
+                line-height: 30px;
+                span{
+                    display: block;
+                    font-size: 15px;
+                }
+                &.small span{
+                    font-size: 14px;
+                    color: #52688E;
+                }
+    
+                /deep/ .van-button{
+                    width: 76px;
+                    padding: 0 6px;
+                    border-radius: 25px;
+                    height: 24px;
+                    vertical-align: middle;
+                    span{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// tab
+/deep/ .van-tabs{
+    margin-top: -10px;
+    .van-tabs__wrap{
+        height: 40px;
+        .van-tabs__line{
+            width: 76px;
+            background-color: @primary_color;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "message": {
+        "bill_wtd": true,
+        "has_pay_pwd": true,
+        "mobile": "130****9252",
+        "money|0-1000": 0,
+        "cmoney|0-1000": 0,
+        "name": "Lewis"
+    },
+    "status_code": 201
+}

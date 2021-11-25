@@ -1,0 +1,91 @@
+{
+    "message": [
+        {
+            "correction": "-",
+            "created_at": "-",
+            "date": "2021/03",
+            "date_str": "03月财务",
+            "detail": {
+                "agent_bonus|0-100": 0,
+                "beat_money|0-100": 0,
+                "beat_num|0-100": 0,
+                "bonus_money|0-100": 0,
+                "fee|0-100": 0,
+                "game_fee|0-100": 0,
+                "payout|-100-100": 0,
+                "real_win_lost|-100-100": 0,
+                "transfer_user|0-100": 0,
+                "user_agent|0-100": 0,
+                "user_num|0-100": 0,
+                "valid_betamt|0-100": 0.16
+            },
+            "invite_correction": "-",
+            "last_balance": "-",
+            "leave_money": "-",
+            "money": "-",
+            "other_reward": "-",
+            "profit": "@integer(-1000,1000).00",
+            "rate": "-",
+            "valid": "0",
+            "valid_reward": "-"
+        },
+        {
+            "correction": "-",
+            "created_at": "-",
+            "date": "2021/04",
+            "date_str": "04月财务",
+            "detail": {
+                "agent_bonus|0-100": 0,
+                "beat_money|0-100": 0,
+                "beat_num|0-100": 0,
+                "bonus_money|0-100": 0,
+                "fee|0-100": 0,
+                "game_fee|0-100": 0,
+                "payout|-100-100": 0,
+                "real_win_lost|-100-100": 0,
+                "transfer_user|0-100": 0,
+                "user_agent|0-100": 0,
+                "user_num|0-100": 0,
+                "valid_betamt|0-100": 0.16
+            },
+            "invite_correction": "-",
+            "last_balance": "-",
+            "leave_money": "-",
+            "money": "-",
+            "other_reward": "-",
+            "profit": "@integer(-1000,1000).00",
+            "rate": "-",
+            "valid": "0",
+            "valid_reward": "-"
+        },
+        {
+            "correction": "-",
+            "created_at": "-",
+            "date": "2021/05",
+            "date_str": "05月财务",
+            "detail": {
+                "agent_bonus|0-100": 0,
+                "beat_money|0-100": 0,
+                "beat_num|0-100": 0,
+                "bonus_money|0-100": 0,
+                "fee|0-100": 0,
+                "game_fee|0-100": 0,
+                "payout|-100-100": 0,
+                "real_win_lost|-100-100": 0,
+                "transfer_user|0-100": 0,
+                "user_agent|0-100": 0,
+                "user_num|0-100": 0,
+                "valid_betamt|0-100": 0.16
+            },
+            "invite_correction": "-",
+            "last_balance": "-",
+            "leave_money": "-",
+            "money": "-",
+            "other_reward": "-",
+            "profit": "@integer(-1000,1000).00",
+            "rate": "-",
+            "valid": "0",
+            "valid_reward": "-"
+        }
+    ]
+}

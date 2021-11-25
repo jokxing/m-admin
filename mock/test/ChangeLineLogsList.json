@@ -1,0 +1,18 @@
+{
+    "message" : {
+        "Data|20": [
+            {
+                "before_created_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+                "created_at": "@datetime('yyyy-MM-dd HH:mm:ss')",
+                "post_member_name": "@last()",
+                "post_member_realname": "@word(0,5)",
+                "status|0-2": 0,
+                "user_id": 813,
+                "verify_remark": "@cword(0, 5)"
+            }
+        ],
+        "Pagesize": 20,
+        "Total|1-5000": 0
+    },
+    "status_code": 201
+}

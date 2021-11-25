@@ -1,0 +1,17 @@
+{
+    "message": [
+        {
+            "account": "@name",
+            "bankId|10000-99999": 10000,
+            "bank_name|1": ["中国邮政储蓄银行","中国银行","中国建设银行"],
+            "card_address": {
+                "city": "@province()", 
+                "district": "@city()", 
+                "province": "@county()"
+            },
+            "card_number": "@id",
+            "id|10000-99999": 10000
+        }
+    ],
+    "status_code": 201
+}

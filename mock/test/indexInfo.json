@@ -1,0 +1,10 @@
+{
+    "message": {
+        "rate|0-100": 0, 
+        "payout|-1000-1000": 0, 
+        "valid_user|0-1000": 44, 
+        "register_user|0-1000": 0, 
+        "user_num|0-1000": 579
+    },
+    "status_code": 201
+}
